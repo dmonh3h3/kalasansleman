@@ -1,0 +1,249 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container-fluid {
+  padding: 0px;
+  margin: 0px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #071c4d;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: 500;
+  color: #071C4D;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: -70px;
+  font-size: 30px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+header {
+  background-color: #18A4E0;
+  color: #fff;
+  max-height: 100vh;
+  padding: 180px 0 165px;
+}
+
+header h4,
+header p {
+  text-align: center;
+}
+
+header h4 {
+  font-family: "Segoe UI";
+  font-weight: normal;
+  font-size: 29px;
+  color: #faf8f0;
+  text-decoration: underline;
+}
+
+header p {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 17px;
+  color: #faf8f0;
+}
+
+.section-informasi .box-grey {
+  width: 100vw;
+  height: 101px;
+  background: #c0c0c04b;
+  margin-top: 202px;
+}
+
+.section-informasi .box-informasi {
+  margin-top: -250px;
+  height: 401px;
+  background: #fff;
+  border: 1px solid #707070;
+  -webkit-box-shadow: 0px 3px 18px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 3px 18px rgba(0, 0, 0, 0.16);
+}
+
+.section-informasi .box-informasi img {
+  height: 401px;
+  width: 873px;
+}
+
+.section-informasi .text-informasi {
+  margin-left: 260px;
+}
+
+.section-informasi .text-informasi h1 {
+  margin-left: -140px;
+  margin-top: -235px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 42px;
+  text-align: left;
+  color: #043353;
+}
+
+.section-informasi .text-informasi h4 {
+  margin-top: -20px;
+  margin-left: -50px;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 28px;
+  text-align: left;
+  color: #8b8b8b;
+}
+
+.section-berita {
+  margin-top: 190px;
+  background-color: #18A4E0;
+}
+
+.section-berita h1 {
+  font-family: Roboto;
+  font-weight: 500;
+  font-style: medium italic;
+  font-size: 42px;
+  text-align: left;
+  color: #043353;
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.section-berita .box-carousel {
+  margin-top: 22px;
+  margin-bottom: 22px;
+  border-radius: 10px;
+}
+
+.section-berita .box-carousel .carousel .carousel-inner .carousel-item img {
+  max-height: 500px;
+  border-radius: 10px;
+}
+
+.section-berita .box-carousel .carousel .carousel-inner .carousel-item .carousel-caption {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #ddddddd7;
+}
+
+.section-berita .box-carousel .carousel .carousel-inner .carousel-item .carousel-caption h6,
+.section-berita .box-carousel .carousel .carousel-inner .carousel-item .carousel-caption h2,
+.section-berita .box-carousel .carousel .carousel-inner .carousel-item .carousel-caption p {
+  padding: 0px;
+  margin-bottom: 0px;
+  text-align: left;
+}
+
+.section-berita .box-carousel .carousel .carousel-inner .carousel-item .carousel-caption h6 {
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 10px;
+  text-align: left;
+  color: #043353;
+}
+
+.section-berita .box-carousel .carousel .carousel-inner .carousel-item .carousel-caption h2 {
+  font-family: Roboto;
+  font-weight: 900;
+  font-style: medium italic;
+  font-size: 31px;
+  text-align: left;
+  color: #043353;
+}
+
+.section-berita .box-carousel .carousel .carousel-inner .carousel-item .carousel-caption p {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 11px;
+  text-align: left;
+  color: #043353;
+}
+
+.section-artikel .box-title-artikel {
+  background-color: #c2bebe8a;
+  margin-bottom: 25px;
+  margin-left: -100px;
+}
+
+.section-artikel .box-title-artikel h1 {
+  text-align: right;
+}
+
+.section-artikel h1 {
+  padding: 20px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-style: medium italic;
+  font-size: 42px;
+  text-align: left;
+  color: #043353;
+}
+
+.section-artikel .text-artikel {
+  padding-left: 15px;
+  padding-top: 15px;
+  border-top: 2px solid #7070706c;
+  border-bottom: 2px solid #7070706c;
+}
+
+.section-artikel .text-artikel h2 {
+  margin-bottom: 0px;
+}
+
+.section-artikel .text-artikel h2 a {
+  font-family: Roboto;
+  font-weight: bold;
+  text-align: left;
+  color: #043353;
+  text-decoration: none;
+}
+
+.section-artikel .text-artikel h2 a:hover {
+  color: #095080;
+}
+
+.section-artikel .text-artikel h5 {
+  text-decoration: underline;
+}
+
+.section-artikel .text-artikel p {
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 12px;
+  text-align: left;
+  color: #043353;
+}
+
+footer {
+  margin-top: 20px;
+}
+
+footer .box-alamat {
+  background-color: #18a4e0;
+  color: #fff;
+  padding-top: 50px;
+  padding-left: 160px;
+  padding-bottom: 50px;
+}
+
+footer .box-peta {
+  background: #043353;
+  color: #fff;
+  padding-top: 50px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+}
+
+footer .box-peta .peta {
+  text-align: center;
+  width: 283px;
+  height: 249px;
+  background: #fff;
+  margin-left: 130px;
+}
+/*# sourceMappingURL=main.css.map */
